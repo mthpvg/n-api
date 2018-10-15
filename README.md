@@ -6,7 +6,9 @@
 
 On macOS, possible problem:
 
-```xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance```
+```
+xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
+```
 
 Solution:
 
@@ -15,7 +17,9 @@ https://github.com/nodejs/node-gyp/issues/569#issuecomment-94917337
 ## Quickstart
 ```bash
 git clone git@github.com:mthpvg/n-api.git
-cd n-api
+cd n-api/return-string
 npm install
 npm start
 ```
+
+When changing `*.cc`: `npm run build-addon`
