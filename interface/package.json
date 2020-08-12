@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "node-addon-api": "^1.1.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "build-addon": "node-gyp configure && node-gyp build"
+  },
+  "gypfile": true,
+  "name": "napi",
+  "version": "1.0.0",
+  "author": "mthpvg",
+  "license": "ISC",
+  "description": ""
+}
